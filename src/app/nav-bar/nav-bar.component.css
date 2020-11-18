@@ -1,0 +1,26 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  justify-content: center;
+  text-decoration: none;
+  list-style: none;
+  padding-left: 1em;
+  padding-top: 15%;
+}
+
+.portraits:hover {
+  cursor: crosshair;
+}
+
+.studio:hover {
+  cursor: zoom-in;
+}
+
+.observations:hover {
+  cursor: zoom-out;
+}
+
+.about:hover {
+  cursor: help;
+}
