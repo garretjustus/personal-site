@@ -1,12 +1,9 @@
 .list {
-  display: flex;
-  flex-direction: column;
-  align-content: flex-start;
-  justify-content: center;
+  position: fixed;
+  left: 5px;
+  top: 8em;
   text-decoration: none;
   list-style: none;
-  padding-left: 1em;
-  padding-top: 15%;
 }
 
 .portraits:hover {

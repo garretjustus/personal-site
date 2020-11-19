@@ -1,0 +1,19 @@
+.body {
+  position: absolute;
+  left: 12em;
+  top: 9em;
+  width: 75%;
+}
+
+.self {
+  width: 500px;
+  height: auto;
+}
+
+a {
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: none;
+}

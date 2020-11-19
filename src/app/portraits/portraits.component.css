@@ -1,0 +1,11 @@
+.body {
+  position: absolute;
+  left: 12em;
+  top: 9em;
+  width: 75%;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}

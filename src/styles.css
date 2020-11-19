@@ -1,10 +1,24 @@
+/* .body {
+  font-family: ;
+} */
+
 a {
   text-decoration: none;
-  transition: all 1s;
+  transition: all 0.5s;
   color: black;
 }
 
 a:hover {
   transform: skewX(-10deg);
-  background-color: #ffffe0;
+  background-color: rgb(255, 255, 159);
+}
+
+.light {
+  background-color: white;
+  color: black;
+}
+
+.dark {
+  background-color: black;
+  color: white;
 }

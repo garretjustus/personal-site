@@ -8,8 +8,8 @@ import { ObservationsComponent } from './observations/observations.component';
 import { StudioComponent } from './studio/studio.component';
 import { AboutComponent } from './about/about.component';
 import { HeaderComponent } from './header/header.component';
-import { HomeComponent } from './home/home.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -19,8 +19,8 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
     StudioComponent,
     AboutComponent,
     HeaderComponent,
-    HomeComponent,
-    NavBarComponent
+    NavBarComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
