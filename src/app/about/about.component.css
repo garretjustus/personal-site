@@ -1,8 +1,16 @@
 .body {
-  position: absolute;
-  left: 12em;
-  top: 9em;
+  position: relative;
+  left: 11.5em;
+  top: 8.5em;
+  bottom: 10em;
   width: 75%;
+  height: 75vh;
+  overflow: scroll;
+}
+
+p {
+  margin: 0;
+  margin-top: 5px;
 }
 
 .self {
@@ -11,9 +19,11 @@
 }
 
 a {
-  text-decoration: underline;
+  text-decoration: none;
+  background-color: rgb(255, 255, 159);
 }
 
 a:hover {
-  text-decoration: none;
+  text-decoration: underline;
+  transform: skewX(-10deg);
 }

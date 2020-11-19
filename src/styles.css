@@ -1,6 +1,6 @@
-/* .body {
-  font-family: ;
-} */
+body {
+  height: 95vh;
+}
 
 a {
   text-decoration: none;
@@ -10,15 +10,4 @@ a {
 
 a:hover {
   transform: skewX(-10deg);
-  background-color: rgb(255, 255, 159);
-}
-
-.light {
-  background-color: white;
-  color: black;
-}
-
-.dark {
-  background-color: black;
-  color: white;
 }

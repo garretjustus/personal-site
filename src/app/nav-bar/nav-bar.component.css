@@ -6,6 +6,14 @@
   list-style: none;
 }
 
+.active {
+  background-color: #ccffcc;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 .portraits:hover {
   cursor: crosshair;
 }

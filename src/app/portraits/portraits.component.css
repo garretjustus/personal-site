@@ -1,11 +1,21 @@
 .body {
-  position: absolute;
-  left: 12em;
-  top: 9em;
+  position: relative;
+  left: 11.5em;
+  top: 8.5em;
+  bottom: 10em;
   width: 75%;
-  margin: 0;
+  height: 75vh;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.portrait {
+  height: 90%;
+  width: auto;
+  padding-right: 5px;
 }
 
 p {
   margin: 0;
+  margin-bottom: 5px;
 }

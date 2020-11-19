@@ -1,11 +1,20 @@
 .body {
-  position: absolute;
-  left: 12em;
-  top: 9em;
+  position: relative;
+  left: 11.5em;
+  top: 8.5em;
+  bottom: 10em;
   width: 75%;
-  margin: 0;
+  height: 75vh;
+  overflow: auto;
+  white-space: nowrap;
 }
 
 p {
   margin: 0;
+}
+
+.image {
+  height: 90%;
+  margin-right: 5px;
+  width: auto;
 }
