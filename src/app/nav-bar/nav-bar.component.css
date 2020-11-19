@@ -20,6 +20,7 @@ a {
 
 a:hover {
   font-style: italic;
+  background-color: rgb(255, 255, 159);
 }
 
 .portraits:hover {
@@ -51,6 +52,6 @@ a:hover {
   }
 
   .about {
-    display: contents;
+    display: inline;
   }
 } ;

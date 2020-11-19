@@ -1,12 +1,24 @@
 <ul class="list nav-bar">
-  <li><a href="/portraits" class="portraits li">portraits</a></li>
   <li>
-    <a href="/observations" class="observations li">observations</a>
+    <a routerLink="/portraits" class="portraits li" routerLinkActive="active"
+      >portraits</a
+    >
   </li>
-  <li><a href="/studio" class="studio li">studio</a></li>
-
   <li>
-    <a href="/about" class="about li active">about</a>
+    <a
+      routerLink="/observations"
+      class="observations li"
+      routerLinkActive="active"
+      >observations</a
+    >
+  </li>
+  <li>
+    <a class="studio li" routerLink="/studio" routerLinkActive="active"
+      >studio</a
+    >
+  </li>
+  <li>
+    <a routerLink="/about" class="about li" routerLinkActive="active">about</a>
   </li>
   <!-- <li class="lightswitch">light / dark</li> -->
 </ul>

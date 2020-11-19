@@ -44,19 +44,21 @@ a:hover {
     top: 0;
   }
   .title {
-    left: 3.83em;
+    left: 3.96em;
     top: 0.5em;
     font-size: 48px;
   }
 
   .first {
     position: fixed;
+    letter-spacing: 3px;
   }
 
   .last {
     position: fixed;
     left: 50%;
     transform: translate(-50%);
+    letter-spacing: 3px;
   }
 
   .menu {
