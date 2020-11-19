@@ -1,11 +1,12 @@
 .body {
   position: relative;
-  left: 11.5em;
-  top: 8.5em;
-  bottom: 10em;
-  width: 75%;
-  height: 75vh;
-  overflow: scroll;
+  left: 0.5em;
+  top: 0;
+  bottom: 0;
+  width: 95%;
+  height: 80vh;
+  text-align: center;
+  font-family: "prestige-elite-std";
 }
 
 p {
@@ -13,17 +14,47 @@ p {
   margin-top: 5px;
 }
 
+.self-square {
+  height: 300px;
+  width: 300px;
+}
+
 .self {
-  width: 500px;
-  height: auto;
+  display: none;
 }
 
 a {
   text-decoration: none;
-  background-color: rgb(255, 255, 159);
+  text-decoration: underline;
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
   transform: skewX(-10deg);
 }
+
+@media only screen and (min-width: 768px) {
+  .body {
+    position: relative;
+    left: 11.5em;
+    top: 8.5em;
+    bottom: 10em;
+    width: 75%;
+    height: 75vh;
+    text-align: start;
+  }
+
+  .mobile-breaks {
+    display: none;
+  }
+
+  .self-square {
+    display: none;
+  }
+
+  .self {
+    width: auto;
+    height: 400px;
+    display: inline;
+  }
+} ;

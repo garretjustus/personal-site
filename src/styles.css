@@ -3,11 +3,16 @@ body {
 }
 
 a {
-  text-decoration: none;
   transition: all 0.5s;
   color: black;
 }
 
 a:hover {
-  transform: skewX(-10deg);
+  text-decoration: none;
+  background-color: rgb(255, 255, 159);
 }
+
+/* 
+a:hover {
+  transform: skewX(-10deg);
+} */

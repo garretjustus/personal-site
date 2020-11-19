@@ -1,20 +1,31 @@
 .body {
   position: relative;
-  left: 11.5em;
-  top: 8.5em;
-  bottom: 10em;
-  width: 75%;
-  height: 75vh;
+  left: 0.5em;
+  top: 0;
+  bottom: 0;
+  width: 95%;
+  height: 80vh;
   overflow: auto;
   white-space: nowrap;
+}
+
+.image {
+  height: 95%;
+  width: auto;
+  padding: 1px;
 }
 
 p {
   margin: 0;
 }
 
-.image {
-  height: 90%;
-  margin-right: 5px;
-  width: auto;
-}
+@media only screen and (min-width: 768px) {
+  .body {
+    position: relative;
+    left: 11.5em;
+    top: 8.5em;
+    bottom: 10em;
+    width: 75%;
+    height: 75vh;
+  }
+} ;
