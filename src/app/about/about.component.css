@@ -1,12 +1,12 @@
 .body {
   position: relative;
-  left: 0.5em;
-  top: 0;
-  bottom: 0;
+  left: 2.5%;
+  top: 0.32em;
   width: 95%;
   height: 80vh;
   text-align: center;
   font-family: "prestige-elite-std";
+  overflow: auto;
 }
 
 p {
@@ -15,8 +15,8 @@ p {
 }
 
 .self-square {
-  height: 300px;
-  width: 300px;
+  height: auto;
+  width: 100%;
 }
 
 .self {
@@ -33,17 +33,23 @@ a:hover {
   transform: skewX(-10deg);
 }
 
+@media only screen and (min-width: 450px) {
+  .self-square {
+    height: auto;
+    width: 412px;
+  }
+}
+
 @media only screen and (min-width: 768px) {
   .body {
     position: relative;
     left: 11.5em;
-    top: 8.5em;
+    top: 9em;
     bottom: 10em;
     width: 75%;
     height: 75vh;
     text-align: start;
   }
-
   .mobile-breaks {
     display: none;
   }
@@ -54,7 +60,14 @@ a:hover {
 
   .self {
     width: auto;
-    height: 400px;
+    height: 350px;
     display: inline;
+  }
+}
+
+@media only screen and (min-width: 850px) {
+  .self {
+    width: auto;
+    height: 400px;
   }
 } ;

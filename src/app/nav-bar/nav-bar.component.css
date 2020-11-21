@@ -1,17 +1,22 @@
 .list {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   text-decoration: none;
   list-style: none;
   left: 0;
   padding: 0;
-  margin: 5px;
-  font-size: 18px;
+  margin: 2vh 2.5%;
+  font-size: 16px;
   font-family: "prestige-elite-std";
 }
 
 .active {
   background-color: #ccffcc;
+}
+
+.active:hover {
+  background-color: #ccffcc;
+  font-style: normal;
 }
 
 a {
@@ -39,8 +44,15 @@ a:hover {
   cursor: help;
 }
 
-.about {
-  display: none;
+/* .about-parent {
+  position: fixed;
+  bottom: 2vh;
+} */
+
+@media only screen and (min-width: 440px) {
+  .list {
+    font-size: 19px;
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -48,10 +60,15 @@ a:hover {
     display: inline;
     position: fixed;
     left: 2em;
-    top: 7.8em;
+    top: 8.5em;
+    font-size: 18px;
+    margin: 0;
   }
 
-  .about {
-    display: inline;
+  a {
+    text-decoration: none;
   }
+  /* .about-parent {
+    position: static;
+  } */
 } ;

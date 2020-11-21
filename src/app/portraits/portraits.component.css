@@ -1,8 +1,6 @@
 .body {
   position: relative;
-  left: 0.5em;
-  top: 0;
-  bottom: 0;
+  left: 2.5%;
   width: 95%;
   height: 80vh;
   overflow: auto;
@@ -10,9 +8,9 @@
 }
 
 .image {
-  height: 95%;
+  height: 95.8%;
   width: auto;
-  padding: 1px;
+  padding: 1.5% 1% 1.5% 0;
 }
 
 p {
@@ -27,5 +25,11 @@ p {
     bottom: 10em;
     width: 75%;
     height: 75vh;
+  }
+
+  .image {
+    height: 95%;
+    width: auto;
+    padding: 1% 1% 1% 0;
   }
 } ;
