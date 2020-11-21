@@ -11,8 +11,3 @@ a:hover {
   text-decoration: none;
   background-color: rgb(255, 255, 159);
 }
-
-/* 
-a:hover {
-  transform: skewX(-10deg);
-} */

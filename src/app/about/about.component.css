@@ -33,7 +33,18 @@ a:hover {
   transform: skewX(-10deg);
 }
 
-@media only screen and (min-width: 450px) {
+br {
+  size: 2px;
+}
+
+@media only screen and (min-width: 350px) {
+  .self-square {
+    height: auto;
+    width: 300px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
   .self-square {
     height: auto;
     width: 412px;

@@ -1,6 +1,6 @@
 .list {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   text-decoration: none;
   list-style: none;
   left: 0;
@@ -8,6 +8,7 @@
   margin: 2vh 2.5%;
   font-size: 16px;
   font-family: "prestige-elite-std";
+  flex-wrap: wrap;
 }
 
 .active {
@@ -44,10 +45,16 @@ a:hover {
   cursor: help;
 }
 
-/* .about-parent {
-  position: fixed;
-  bottom: 2vh;
-} */
+.hovertext {
+  display: none;
+}
+
+@media only screen and (min-width: 350px) {
+  .list {
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}
 
 @media only screen and (min-width: 440px) {
   .list {
@@ -68,7 +75,25 @@ a:hover {
   a {
     text-decoration: none;
   }
-  /* .about-parent {
-    position: static;
-  } */
+
+  .hover .hovertext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 0;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: -25vh;
+    left: 0em;
+    opacity: 0;
+  }
+
+  .hover:hover .hovertext {
+    display: initial;
+    visibility: visible;
+    opacity: 1;
+  }
 } ;
