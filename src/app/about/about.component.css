@@ -3,10 +3,11 @@
   left: 2.5%;
   top: 0.32em;
   width: 95%;
-  height: 80vh;
+  height: 75vh;
   text-align: center;
   font-family: "prestige-elite-std";
   overflow: auto;
+  white-space: wrap;
 }
 
 p {
@@ -16,7 +17,7 @@ p {
 
 .self-square {
   height: auto;
-  width: 100%;
+  width: 80%;
 }
 
 .self {
@@ -31,6 +32,10 @@ a {
 a:hover {
   text-decoration: none;
   transform: skewX(-10deg);
+}
+
+.credit {
+  padding-bottom: 2px;
 }
 
 br {

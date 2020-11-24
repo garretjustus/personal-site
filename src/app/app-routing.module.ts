@@ -11,6 +11,7 @@ const routes: Routes = [
   { path: 'observations', component:  ObservationsComponent},
   { path: 'studio', component:  StudioComponent},
   { path: 'about', component:  AboutComponent},
+  { path: '', component:  AboutComponent},
   { path: '**', component:  AboutComponent},
 ];
 
