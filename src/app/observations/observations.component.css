@@ -25,6 +25,7 @@ p {
     bottom: 10em;
     width: 75%;
     height: 75vh;
+    cursor: ew-resize;
   }
   .image {
     height: 95%;
