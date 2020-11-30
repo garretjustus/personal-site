@@ -29,9 +29,9 @@ p {
   }
 
   .image {
-    height: 95%;
+    height: 98%;
     width: auto;
-    padding: 1% 1% 1% 0;
+    padding: 1px 4px 1px 0;
   }
 
   .last-image {
