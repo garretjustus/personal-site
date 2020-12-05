@@ -1,0 +1,40 @@
+.body {
+  position: relative;
+  left: 2.5%;
+  width: 95%;
+  height: 80vh;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.image {
+  height: 95.8%;
+  width: auto;
+  padding: 1.5% 1% 1.5% 0;
+}
+
+p {
+  margin: 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .body {
+    position: relative;
+    left: 11.5em;
+    top: 8.5em;
+    bottom: 10em;
+    width: 75%;
+    height: 75vh;
+    cursor: ew-resize;
+  }
+
+  .image {
+    height: 98%;
+    width: auto;
+    padding: 1px 4px 1px 0;
+  }
+
+  .last-image {
+    padding-right: 0;
+  }
+} ;
