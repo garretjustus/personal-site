@@ -1,79 +1,71 @@
 .list {
+  position: relative;
   display: flex;
-  justify-content: space-evenly;
   text-decoration: none;
   list-style: none;
-  left: 0;
-  padding: 0;
-  margin: 2vh 2.5%;
   font-size: 16px;
   font-family: "prestige-elite-std";
   flex-wrap: wrap;
 }
 
-.active {
-  background-color: #ccffcc;
-}
-
-.active:hover {
-  background-color: #ccffcc;
-  font-style: normal;
-}
-
-a {
-  text-decoration: none;
-}
-
-a:hover {
-  font-style: italic;
-  background-color: rgb(255, 255, 159);
-}
-
-.portraits:hover {
-  cursor: crosshair;
-}
-
-.studio:hover {
-  cursor: zoom-in;
-}
-
-.observations:hover {
-  cursor: zoom-out;
-}
-
-.about:hover {
-  cursor: help;
-}
-
-.hovertext {
-  display: none;
-}
-
 @media only screen and (min-width: 350px) {
   .list {
-    justify-content: space-between;
-    flex-wrap: wrap;
   }
 }
 
 @media only screen and (min-width: 440px) {
   .list {
-    font-size: 19px;
   }
 }
 
 @media only screen and (min-width: 768px) {
   .list {
-    display: inline;
-    position: fixed;
-    left: 2em;
-    top: 8.5em;
-    font-size: 18px;
-    margin: 0;
+    font-size: 19px;
+    flex-direction: column;
+    height: 100vh;
+    padding-top: 200px;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 150px;
+  }
+
+  .active {
+    background-color: #ccffcc;
+  }
+
+  .active:hover {
+    background-color: #ccffcc;
+    font-style: normal;
   }
 
   a {
     text-decoration: none;
+  }
+
+  a:hover {
+    font-style: italic;
+    background-color: rgb(255, 255, 159);
+  }
+
+  .portraits:hover {
+    cursor: crosshair;
+  }
+
+  .studio:hover {
+    cursor: zoom-in;
+  }
+
+  .observations:hover {
+    cursor: zoom-out;
+  }
+
+  .about:hover {
+    cursor: help;
+  }
+
+  .hovertext {
+    display: none;
   }
 
   .hover .hovertext {

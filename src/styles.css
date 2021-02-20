@@ -1,5 +1,5 @@
 body {
-  height: 95vh;
+  margin: 0;
 }
 
 a {
@@ -10,4 +10,9 @@ a {
 a:hover {
   text-decoration: none;
   background-color: rgb(255, 255, 159);
+}
+
+.off {
+  color: white;
+  background-color: black;
 }
